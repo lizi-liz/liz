@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Suzhou</title>
+    <link rel="stylesheet" href="stylesheets/foundation.min.css">
+    <script src="javascripts/modernizr.foundation.js"></script>
+</head>
+
+<body>
+
+    <div class="row page_wrap">
+        <div class="twelve columns">
+            <div class="row">
+                <div class="nine columns header_nav">
+                    <ul id="menu-header" class="nav-bar horizontal">
+                        <li><a href="index.html">水乡古镇</a></li>
+                        <li class="has-flyout">
+                            <a href="#">天堂苏州</a>
+                            <a href="#" class="flyout-toggle"></a>
+                            <ul class="flyout">
+                                <li class="has-flyout"><a href="East-shuicheng.html">东方水城</a></li>
+                                <li class="has-flyout"><a href="Suzhou-gardens.html">苏州园林</a></li>
+                                <li class="has-flyout"><a href="Land-of-fish.html">鱼米之乡</a></li>
+                            </ul>
+                        </li>
+                        <li class=""><a href="Reiki.html">灵气姑苏</a></li>
+                    </ul>
+                    <script type="text/javascript">
+                        $('ul#menu-header').nav - bar();
+                    </script>
+                </div>
+                <div class="three columns header_logo">
+                    <img src="images/logo.png" alt="site name" />
+                </div>
+            </div>
+
+            <div id="container" style="width:99.5%; background: none; box-shadow: none; margin: 0.5% auto">
+
+                <div class='box photo col2'>
+                    <a href="#"><img src='images/m1.jpg' alt="desc" /></a>
+                    <p style='text-align:center; margin-bottom:12px'>
+                        <a href='#' class='button small secondary round'>More  &#187;</a>
+                    </p>
+                </div>
+
+                <div class='box photo col2'>
+                    <a href="#"><img src='images/m2.jpg' alt="desc" /></a>
+                    <p style='text-align:center; margin-bottom:12px'>
+                        <a href='#' class='button small secondary round'>More  &#187;</a>
+                    </p>
+                </div>
+
+                <div class='box photo col2'>
+                    <a href="#"><img src='images//m3.jpg' alt="desc" /></a>
+                    <p style='text-align:center; margin-bottom:12px'>
+                        <a href='#' class='button small secondary round'>More  &#187;</a>
+                    </p>
+                </div>
+
+                <div class='box photo col2'>
+                    <a href="#"><img src='images//m3.jpg' alt="desc" /></a>
+                    <p style='text-align:center; margin-bottom:12px'>
+                        <a href='#' class='button small secondary round'>More  &#187;</a>
+                    </p>
+                </div>
+
+                <div class='box photo col2'>
+                    <a href="#"><img src='images//m4.jpg' alt="desc" /></a>
+                    <p style='text-align:center; margin-bottom:12px'>
+                        <a href='#' class='button small secondary round'>More  &#187;</a>
+                    </p>
+                </div>
+
+                <div class='box photo col2'>
+                    <a href="#"><img src='images//m5.jpg' alt="desc" /></a>
+                    <p style='text-align:center; margin-bottom:12px'>
+                        <a href='#' class='button small secondary round'>More  &#187;</a>
+                    </p>
+                </div>
+
+                <div class='box photo col2'>
+                    <a href="#"><img src='images//m6.jpg' alt="desc" /></a>
+                    <p style='text-align:center; margin-bottom:12px'>
+                        <a href='#' class='button small secondary round'>More  &#187;</a>
+                    </p>
+                </div>
+
+                <div class='box photo col2'>
+                    <a href="#"><img src='images//m7.jpg' alt="desc" /></a>
+                    <p style='text-align:center; margin-bottom:12px'>
+                        <a href='#' class='button small secondary round'>More  &#187;</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="twelve columns">
+                    <ul id="menu3" class="footer_menu horizontal">
+                        <li class=""><a href="index.html">Home</a> - 苏州不只有园林，还有意想不到的创意市集 </li>
+                    </ul>
+                    <script type="text/javascript">
+                        $('ul#menu3').nav - bar();
+                    </script>
+                </div>
+            </div>
+            <script src="javascripts/foundation.min.js" type="text/javascript">
+            </script>
+            <script src="javascripts/app.js" type="text/javascript">
+            </script>
+            <script src="javascripts/masonry.js" type="text/javascript">
+            </script>
+            <script type="text/javascript">
+                $(function() {
+                    var $container = $('#container');
+                    $container.imagesLoaded(function() {
+                        $container.masonry({
+                            itemSelector: '.box',
+                            isFitWidth: true,
+                            isAnimated: true
+                        });
+                    });
+                });
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>
